@@ -1,0 +1,73 @@
+.head-wrapper{
+    background-image: url("./gurgR2Asa_1256x620__1.webp.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 15vh;
+    display: flex;
+}
+.head-layer{
+    background-color: rgba(0, 0, 0, 0.65);
+    min-height: 15vh;
+    display: flex;
+    flex: 1;
+}
+nav{
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.promo-info{
+    color: white;
+    padding-bottom: 2em;
+}
+.promo-info h4{
+    margin-top: 0;
+    margin-bottom: 3vh;
+}
+.introduction .head-row{
+    border-bottom: 1px solid rgb(192, 191, 191);
+    padding-left: 0;
+    padding-right: 0;
+}
+.introduction .head-row:after{
+    border-bottom: 2px solid rgb(133, 132, 132);
+    width: 10vw;
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+}
+.video-card{
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding-bottom: 2em;
+}
+.video-thumb{
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+.video-thumb span{
+    position: relative;
+    top: -3vh;
+    right: 7%;
+}
+.video-thumb .layer{
+    
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.video-card .circle{
+    width: 100%;
+}
+
+
+.video-card .footer{
+    margin: 0;
+}
